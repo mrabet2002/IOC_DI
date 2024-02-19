@@ -1,6 +1,7 @@
-package metier;
+package metier.part1;
 
 import dao.IDao;
+import metier.IMetier;
 
 public class MetierImpl implements IMetier {
     private IDao dao; // Weak coupling

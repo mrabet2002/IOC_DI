@@ -1,7 +1,9 @@
-package dao.part2;
+package dao.part2.ext;
 
 import dao.IDao;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DaoImplV2 implements IDao {
 
     @Override
